@@ -1,0 +1,13 @@
+.distance {
+    background: #c8d6e5;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+
+  .distance h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

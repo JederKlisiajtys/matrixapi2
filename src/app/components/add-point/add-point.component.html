@@ -1,0 +1,11 @@
+<form *ngIf="showAddPoint" class="add-form" (ngSubmit)="onSubmit()" >
+    <div class="form-control">
+        <label for="Adres">Adres</label>
+        <input type="text" name="origin" id="origin" placeholder="Wpisz adres punktu do dodania" [(ngModel)]  = "origin">
+    </div>
+    <div class="form-control">
+        <label for="day">Nazwa</label>
+        <input type="text" name="alias" id="alias" placeholder="Dodaj nazwę" [(ngModel)] = "alias">
+    </div>
+    <input type="submit" value="Dodaj" class="btn btn-block" />
+</form>

@@ -1,0 +1,3 @@
+<app-add-point (onAddPoint)="addPoint($event)"></app-add-point>
+<app-point-item *ngFor="let point of points" [point]="point" (onDeletePoint)="deletePoint(point)"></app-point-item>
+<a class="btn btn-clear" title="Download JSON" [href]="downloadJsonHref" download="download.json">Pobierz punkty</a>
